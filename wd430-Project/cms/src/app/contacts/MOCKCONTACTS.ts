@@ -1,4 +1,4 @@
-import {Contact} from './contact.model';
+import { Contact } from "./contact-model";
 
 export const MOCKCONTACTS: Contact[] = [
   // individual contacts
@@ -120,13 +120,14 @@ export const MOCKCONTACTS: Contact[] = [
     group: null
   },
   {
-    id: '147',
-    name: 'App Submitted',
-    email: 'me@test.edu',
-    phone: '208-496-3776',
-    imageUrl: '../../assets/images/thompsonda.jpg',
+    id: '18',
+    name: 'Zak Sattler',
+    email: 'test@fake.com',
+    phone: '555-444-1234',
+    imageUrl: '',
     group: null
   },
+  
 
   // teams
   // index 13
